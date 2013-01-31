@@ -1,0 +1,24 @@
+eye  0 0 5
+viewdir  0 0 -1
+updir  0 1 0
+viewdist  5
+fov_w  45
+fov_h  45
+pix_w  1000
+
+bkgcolor 0 0 0
+
+light 8 8 10 1
+
+light -8 -6 -8 1
+
+light -8 10 -9 1
+
+materialcolor  1 0 0 1 1 1 0.1 0.5 0.3 20
+sphere  0 0 -10 2
+
+materialcolor  0 0 1 1 1 1 0.1 0.5 0.3 100
+sphere  2 2 -7 1
+
+materialcolor  0 1 0 1 1 1 0.1 0.5 0.3 100
+sphere -4.5 -4.5 -17 3
